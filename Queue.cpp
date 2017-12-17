@@ -16,6 +16,7 @@ Queue::Queue(int size)
 Queue::~Queue()
 {
     delete[] m_data;
+    
 }
 
 bool Queue::empty()
